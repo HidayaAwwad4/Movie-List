@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>movie</title>
+    <link rel="stylesheet" href="movie.css">
+</head>
+<body>
+<div id="headtitle"><h1>Add a movie to Watch List</h1></div>
+
+<div id="title">
+    <label for="movieTitle">Movie Title</label>
+    <input id="movieTitle" type="text" >
+</div>
+<form id="language">
+    <label>Movie Language</label>
+
+    <!--english_language-->
+    <input id="english" type="radio" value="English" name="language">
+    <label for="english">English</label>
+
+    <!--arabic_language-->
+    <input id="arabic" type="radio" value="العربية" name="language">
+    <label for="arabic">العربية</label>
+</form>
+
+<form id="gen">
+    <label for="genre">Movie Genre</label>
+    <select name="genre" id="genre">
+        <option value="action">Action</option>
+        <option value="thriller">Thriller</option>
+        <option value="comedy">Comedy</option>
+        <option value="animation">Animation</option>
+    </select>
+</form>
+
+<div id="R-rated">
+    <input id="rated" type="checkbox" value="rated" name="Rrated">
+    <label for="english">This movie is R-Rated (18+)</label>
+</div>
+
+<button type="button" id="submit">Add Movie</button>
+
+<hr>
+
+<h1 id="headtable">The Watch List</h1>
+
+<!-- table -->
+<div id="table">
+    <table border="1px">
+        <thead></thead>
+            <tr>
+                <th>#</th>
+                <th>Movie Title</th>
+                <th>Movie Language</th>
+                <th>Movie Genre</th>
+                <th>Is it R-Rated</th>
+                <th>Actions</th>
+
+            </tr>
+        </thead>
+        <tbody id="tablebody">
+
+        </tbody>
+    </table>
+</div>
+<div id="deleteAll"></div>
+<script src="movie.js"></script>
+</body>
+</html>

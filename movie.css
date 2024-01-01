@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(wallpaperflare.com_wallpaper\ \(4\).jpg);
+    background-color:#3b7582;
+    color: #ffffff;
+    font-family: system-ui;
+    margin: 0 80px;
+}
+#headtitle{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+#movieTitle{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #96b4b9;
+    margin: 4px 0;
+    border-radius: 4px;
+    padding: 4px;
+    color: #000000;
+}
+#movieTitle:focus{
+    background: #ffffff;
+    transform: scale(1.04);
+}
+
+#title , #language , #gen , #R-rated , #submit , hr , #headtable , #table{
+    margin: 20px 0 0 0;
+}
+/*#language , #genre , #R-rated , #submit{
+    text-align: center;
+    margin: 10px 0;
+}*/
+
+#headtable{
+    text-align: center;
+    margin: 10px 0;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+table th{
+    text-transform: uppercase;
+}
+th,td{
+    padding: 5px;
+}
+button{
+    width: 100%;
+    height: 30px;
+    border:none;
+    cursor: pointer; 
+    background: #96b4b9;
+    color: #012c41;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#submit:hover{
+    background: #479e67;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+#deleteAll{
+    margin: 20px 0;
+}
+#delete:hover{
+    color: #ffffff;
+    background: #ee3e3e;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
